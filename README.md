@@ -21,6 +21,6 @@
 java -cp clojure.jar uawa.jar clojure.
 ```
 ## для користувачів Eclipse 
-1. Встановить Eclipse
-2. У Eclipse встановіть clojure plugin
-3. Підключіть до проекту дистрибуцію
+1. У Eclipse встановіть clojure plugin
+2. Створить clojure проект.
+3. Підключіть до проекту дистрибуцію uawa.jar
