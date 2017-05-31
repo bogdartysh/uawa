@@ -15,6 +15,13 @@
 В процес:-)
 
 # Перші кроки
+## для корисьувачів Windows 
+1. Встановіть java
+2. Завантажье в одну папку clojure.jar uawa.jar
+3. В командій строці
+```
+java -cp clojure.jar uawa.jar clojure.
+```
 ## для користувачів Eclipse 
 1. Встановить Eclipse
 2. У Eclipse встановіть clojure plugin
