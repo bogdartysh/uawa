@@ -22,7 +22,7 @@
 ```
 java -cp clojure.jar uawa.jar clojure.
 ```
-(або , спробуй leiningetn та gorilla)
+(або , спробуй [leiningen] (https://leiningen.org/) та [gorilla ] (http://gorilla-repl.org/))
 ## для користувачів Eclipse 
 1. У Eclipse встановіть clojure plugin
 2. Створить clojure проект.
