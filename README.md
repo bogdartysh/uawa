@@ -15,13 +15,14 @@
 ```
 
 # Перші кроки
-## для корисьувачів Windows (термінал Ubuntu bash чи Powershel)
-1. Встановіть java
-2. Завантажье в одну папку clojure.jar uawa.jar
+## для користувачів Windows (термінал Ubuntu bash чи Powershel)
+1. Встановіть java та clojure
+2. Завантажье в папку export/uawa.jar
 3. В командій строці наберить
 ```
 java -cp clojure.jar uawa.jar clojure.
 ```
+(або , спробуй leiningetn та gorilla)
 ## для користувачів Eclipse 
 1. У Eclipse встановіть clojure plugin
 2. Створить clojure проект.
