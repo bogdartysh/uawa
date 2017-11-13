@@ -14,4 +14,4 @@
 ;;           :subname "thin:@host:1521/schema" 
 ;;           :user "login"
 ;;           :password "password"})
-;;(запитай БД "  select 1 +1 as sum     from dual")
+;;(запитай БД "  select 1 +1 as sum     from dual") 
