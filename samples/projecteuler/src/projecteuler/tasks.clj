@@ -189,12 +189,24 @@
 53503534226472524250874054075591789781264330331690
     ]
   
-  )] 
-     (/ сума (Math/pow 10 51))
+  ) ступень (int (Math/log10 сума))]    
+     (->> (range 10) (map #(- ступень % )) (map #(Math/pow 10 %)) (map #(/ сума %)) (map long) (map #(mod % 10))  друкуй          )    
+   
 )
 ;; @@
+;; ->
+;;; (5 5 3 7 3 7 6 2 3 0)
+;;; 
+;; <-
 ;; =>
-;;; {"type":"html","content":"<span class='clj-double'>5.537376230390876</span>","value":"5.537376230390876"}
+;;; {"type":"html","content":"<span class='clj-nil'>nil</span>","value":"nil"}
+;; <=
+
+;; @@
+(range  10)
+;; @@
+;; =>
+;;; {"type":"html","content":"<span class='clj-unkown'>(0 1 2 3 4 5 6 7 8 9)</span>","value":"(0 1 2 3 4 5 6 7 8 9)"}
 ;; <=
 
 ;; @@
