@@ -1,0 +1,12 @@
+FROM clojure:lein-2.7.1-alpine
+
+ADD gorilla /app/
+ADD src /app/src/
+
+EXPOSE 9090
+
+
+WORKDIR /app
+
+
+ENTRYPOINT ["/app/docker-entrypoint-gorilla.sh"]
