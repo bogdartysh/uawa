@@ -15,6 +15,13 @@
 ```
 
 # Перші кроки
+## docker
+```
+docker build -t uawa-gorilla .
+docker run -p 9090:9090 -d uawa-gorilla
+```
+потім відкрийте адресу http://127.0.0.1:9090/worksheet.html?filename=uawa і прораньте степи (ctrl+enter)
+
 ## для користувачів Windows (термінал Ubuntu bash чи Powershel)
 1. Встановіть java та clojure
 2. Завантажье в папку export/uawa.jar
