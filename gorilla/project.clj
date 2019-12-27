@@ -2,6 +2,7 @@
       :dependencies [
                             [org.clojure/clojure "1.8.0"]
                             [org.clojure/data.json "0.2.6"]
+                            [clj-http "2.3.0"]
                             [org.clojure/java.jdbc "0.7.0-beta4"]
                     ]
         :main ^:skip-aot gorilla-test.core

@@ -1,7 +1,7 @@
 FROM clojure:lein-2.7.1-alpine
 
 ADD gorilla /app/
-ADD src /app/src/
+ADD ПочатковийКод /app/
 
 EXPOSE 9090
 

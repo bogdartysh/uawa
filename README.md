@@ -22,19 +22,6 @@ docker run -p 9090:9090 -d uawa-gorilla
 ```
 потім відкрийте адресу http://127.0.0.1:9090/worksheet.html?filename=uawa і прораньте степи (ctrl+enter)
 
-## для користувачів Windows (термінал Ubuntu bash чи Powershel)
-1. Встановіть java та clojure
-2. Завантажье в папку export/uawa.jar
-3. В командій строці наберить
-```
-java -cp clojure.jar uawa.jar clojure.
-```
-(або , спробуй [leiningen](https://leiningen.org/) та [gorilla](http://gorilla-repl.org/) )
-## для користувачів Eclipse 
-1. У Eclipse встановіть clojure plugin
-2. Створить clojure проект.
-3. Підключіть до проекту дистрибуцію uawa.jar
-
 
 ## інші відомі авторам проекти мов програмування на базі української
 1. АЛГО — український паскаль https://studopedia.org/2-108787.html
